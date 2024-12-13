@@ -2,3 +2,4 @@ streamlit
 google.generativeai
 PyPDF2
 docx2txt
+google-genai
