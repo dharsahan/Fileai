@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 genai.configure(api_key="AIzaSyBNFUCw3oIxAPIndacymCIP1MmVsS9G9Ts")
-model = genai.GenerativeModel(model_name="gemini-1.5-flash")
+model = genai.GenerativeModel(model_name="gemini-2.0-flash-exp")
 
 st.title("Document Summerizer")
 
