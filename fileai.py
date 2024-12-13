@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import os
 
-genai.configure(api_key="AIzaSyBNFUCw3oIxAPIndacymCIP1MmVsS9G9Ts")
+genai.configure(api_key="AIzaSyC9Iv6CnUlmIOhYfpyNKWEbDYTQVTShfpY")
 model = genai.GenerativeModel(model_name="gemini-2.0-flash-exp")
 
 st.title("Document Summerizer")
